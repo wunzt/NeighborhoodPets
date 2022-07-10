@@ -34,7 +34,7 @@ class NeighborhoodPets:
     def get_owner(self, pet_name):
         """Returns the name of the pet's owner."""
         if pet_name in self._pet_dict:
-            return self._pet_dict[pet_name][2]
+            return self._pet_dict[pet_name][1]
 
     def save_as_json(self, file_name):
         """Saves the pet dictionary to a .json file of the name passed."""
